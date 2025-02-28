@@ -1,4 +1,4 @@
-# Spotify-Data-Analysis-Using-PostgreSQL-
+# Spotify-Data-Analysis-Using-PostgreSQL
 
 **Overview** <br />
 This project analyzes Spotify's database using PostgreSQL. It includes SQL queries that answer 13 analytical questions, categorized into Easy, Medium, and Advanced levels. The dataset was sourced from Kaggle and imported into PostgreSQL for querying.
