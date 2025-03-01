@@ -89,7 +89,16 @@ FROM spotify
 GROUP BY 1
 ORDER BY 2 DESC;
 ```
-3. Find the top 5 tracks with the highest energy values.
+2. Find the top 5 tracks with the highest energy values.
+```
+SELECT 
+	track, 
+	MAX(energy)
+FROM spotify
+GROUP BY 1
+ORDER BY 2 DESC
+LIMIT 5;
+```
 4. List all tracks along with their views and likes where official_video = TRUE.
 5. For each album, calculate the total views of all associated tracks.
 6. Retrieve the track names that have been streamed on Spotify more than YouTube.
