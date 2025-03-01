@@ -64,7 +64,11 @@ SELECT
 FROM spotify
 WHERE licensed = 'true'
 ```
-5. Find all tracks that belong to the album type single.
+4. Find all tracks that belong to the album type single.
+```
+SELECT * FROM spotify 
+WHERE album_type = 'single'
+```
 6. Count the total number of tracks by each artist.
 
 **Medium Level**
