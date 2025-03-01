@@ -179,7 +179,10 @@ FROM cte
 ORDER BY 2 DESC
 ```
 **How to Use** <br />
-1. Clone this repository:
+1. Clone this repository
+```
+git clone https://github.com/VaideheeBarde/Spotify-Data-Analysis-Using-PostgreSQL-.git
+```
 2. Import the dataset into PostgreSQL.
 3. Run the SQL queries using a PostgreSQL client.
 
