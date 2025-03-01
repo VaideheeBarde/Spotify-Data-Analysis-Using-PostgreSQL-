@@ -110,7 +110,7 @@ WHERE official_video = 'true'
 GROUP BY 1
 ORDER BY 2 DESC;
 ```
-5. For each album, calculate the total views of all associated tracks.
+4. For each album, calculate the total views of all associated tracks.
 ```
 SELECT 
 	album,
@@ -120,7 +120,7 @@ FROM spotify
 GROUP BY 1, 2 
 ORDER BY 3 DESC;
 ```
-7. Retrieve the track names that have been streamed on Spotify more than YouTube.
+5. Retrieve the track names that have been streamed on Spotify more than YouTube.
 
 **Advanced Level**
 1. Find the top 3 most-viewed tracks for each artist using window functions.
