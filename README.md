@@ -69,7 +69,15 @@ WHERE licensed = 'true';
 SELECT * FROM spotify 
 WHERE album_type = 'single';
 ```
-6. Count the total number of tracks by each artist.
+5. Count the total number of tracks by each artist.
+```
+SELECT 
+	artist, --1
+	COUNT(*) AS total_no_songs --2
+FROM spotify
+GROUP BY artist
+ORDER BY 2
+```
 
 **Medium Level**
 1. Calculate the average danceability of tracks in each album.
